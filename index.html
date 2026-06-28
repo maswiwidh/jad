@@ -1,0 +1,2764 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aqiqah Hebat - Juragan Kambing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+  
+   <!-- Meta Tag Umum -->
+    <meta name="description" content="Fokus Menghadirkan Layanan Terbaik, Juragan Kambing Hadir sebagai Jasa Aqiqah Amanah dan Terpercaya">
+    
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jasaaqiqahdepok.com/"> <!-- Ganti dengan URL domain asli Anda -->
+    <meta property="og:title" content="Mau Aqiqah? Pesan aja di JURAGAN KAMBING">
+    <meta property="og:description" content="Fokus Menghadirkan Layanan Terbaik, Juragan Kambing Hadir sebagai Jasa Aqiqah Amanah dan Terpercaya">
+    <meta property="og:image" content="https://6a11c3f5e92048e6f0238974.imgix.net/Wiwid-Juragan.webp"> <!-- Ganti dengan URL link gambar thumnail Anda -->
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mau Aqiqah? Pesan aja di JURAGAN KAMBING">
+    <meta name="twitter:description" content="Fokus Menghadirkan Layanan Terbaik, Juragan Kambing Hadir sebagai Jasa Aqiqah Amanah dan Terpercaya">
+    <meta name="twitter:image" content="https://6a11c3f5e92048e6f0238974.imgix.net/Wiwid-Juragan.webp"> <!-- Ganti dengan URL link gambar thumbnail Anda -->
+    <!-- ======================================================================= -->
+
+  
+    /* ============= Reset & Base Styles ============= */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ============= Hero Section ============= */
+    .hero {
+      background: linear-gradient(135deg, #000000 0%, #000000 100%);
+      text-align: center;
+      font-style: italic;
+      padding: 3px 18px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        width: 100%;
+        max-width: none;
+        padding: 16px 0;
+      }
+    }
+
+    .hero h1 {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.4;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .hero .white {
+      color: #ffffff;
+      margin-right: 4px;
+    }
+
+    .hero .yellow {
+      color: #ffc107;
+      font-weight: 800;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 {
+        font-size: 16px;
+      }
+    }
+
+    /* ============= Container ============= */
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* ============= Slider Promo ============= */
+    .slider-section {
+      padding: 0;
+      background: #f8f9fa;
+    }
+
+    .slider-wrapper {
+      position: relative;
+      overflow: hidden;
+      background: #fff;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    @media (min-width: 768px) {
+      .slider-wrapper {
+        width: 100%;
+        max-width: none;
+      }
+    }
+
+    .slider {
+      display: flex;
+      scroll-snap-type: x mandatory;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .slider::-webkit-scrollbar {
+      display: none;
+    }
+
+    .slide {
+      flex: 0 0 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      min-height: auto;
+      background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+      padding: 0;
+      width: 100%;
+    }
+
+    .slide img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+      animation: fadeIn 0.6s ease-in-out;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    /* Slider Indicators */
+    .slider-indicators {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 16px;
+      background: #fff;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+      .slider-indicators {
+        max-width: none;
+      }
+    }
+
+    .indicator {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #d0d0d0;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .indicator.active {
+      background: #ffc107;
+      width: 24px;
+      border-radius: 4px;
+    }
+
+    /* ============= Extra Image Section ============= */
+    .extra-image-section {
+      padding: 20px 16px 24px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .extra-image-section {
+        display: none;
+      }
+    }
+
+    .extra-image {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .extra-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    .extra-image:hover img {
+      transform: scale(1.02);
+    }
+
+    /* ============= Marquee (Text Berjalan) ============= */
+    .marquee-section {
+      background: linear-gradient(90deg, #ffc107 0%, #ffb300 100%);
+      color: #4a0c0c;
+      padding: 0;
+      overflow: hidden;
+      border-top: 2px solid #ff9800;
+      border-bottom: 2px solid #ff9800;
+      width: 100%;
+    }
+
+    @media (min-width: 768px) {
+      .marquee-section {
+        width: 100%;
+        max-width: none;
+      }
+    }
+
+    .marquee-section-inner {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .marquee {
+      display: flex;
+      white-space: nowrap;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      padding: 12px 0;
+      animation: scroll 25s linear infinite;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .marquee:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    @media (min-width: 768px) {
+      .marquee {
+        font-size: 14px;
+        animation: scroll 30s linear infinite;
+      }
+    }
+
+    /* ============= Desktop CTA Button Section ============= */
+    .cta-section-desktop {
+      padding: 30px 16px;
+      background: #ffffff;
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (min-width: 768px) {
+      .cta-section-desktop {
+        display: flex;
+        padding: 40px 20px;
+      }
+    }
+
+    /* ============= CTA Button Section (Mobile Only) ============= */
+    .cta-section {
+      padding: 20px 16px;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (min-width: 768px) {
+      .cta-section {
+        display: none;
+      }
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 16px;
+      box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .cta-button:hover {
+      background: linear-gradient(135deg, #f57c00 0%, #e65100 100%);
+      box-shadow: 0 6px 16px rgba(255, 152, 0, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .cta-button:active {
+      transform: translateY(0);
+    }
+
+    /* ============= About Section (Mobile Only) ============= */
+    .about-section {
+      padding: 20px 16px 24px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .about-section {
+        display: none;
+      }
+    }
+
+    .about-image {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      text-align: center;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .about-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    .about-content {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .about-content p {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.8;
+      color: #4a0c0c;
+      letter-spacing: 0.3px;
+    }
+
+    /* ============= Gallery Section ============= */
+    .gallery-section {
+      padding: 20px 16px 24px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .gallery-section {
+        padding: 40px 20px;
+        max-width: 100%;
+        display: block;
+      }
+    }
+
+    .gallery-container {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    @media (min-width: 768px) {
+      .gallery-container {
+        max-width: 100%;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .gallery-item {
+      text-align: center;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-4px);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    @media (min-width: 768px) {
+      .gallery-item {
+        flex: 1;
+        max-width: 350px;
+      }
+    }
+
+    /* ============= Price Section ============= */
+    .price-section {
+      padding: 40px 16px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .price-section {
+        padding: 60px 20px;
+      }
+    }
+
+    .price-header {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .price-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #d32f2f;
+      margin-bottom: 12px;
+    }
+
+    .price-subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 768px) {
+      .price-title {
+        font-size: 32px;
+      }
+
+      .price-subtitle {
+        font-size: 15px;
+      }
+    }
+
+    .price-container {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .price-container {
+        max-width: 100%;
+        flex-direction: row;
+        gap: 24px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+    }
+
+    .price-item {
+      text-align: center;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .price-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .price-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 12px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    .price-item-button {
+      display: none;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 16px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .price-item-button:hover {
+      background: linear-gradient(135deg, #f57c00 0%, #e65100 100%);
+      box-shadow: 0 6px 16px rgba(255, 152, 0, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .price-item-button:active {
+      transform: translateY(0);
+    }
+
+    .price-item:nth-child(1) .price-item-button,
+    .price-item:nth-child(2) .price-item-button,
+    .price-item:nth-child(3) .price-item-button {
+      display: none;
+    }
+
+    .price-item:nth-child(4) .price-item-button {
+      display: inline-block;
+    }
+
+    @media (min-width: 768px) {
+      .price-item:nth-child(1) .price-item-button,
+      .price-item:nth-child(2) .price-item-button,
+      .price-item:nth-child(3) .price-item-button,
+      .price-item:nth-child(4) .price-item-button {
+        display: inline-block;
+        margin-bottom: 0;
+      }
+
+      .price-item {
+        flex: 1;
+        max-width: 280px;
+      }
+
+      .price-item img {
+        max-width: 100%;
+      }
+    }
+
+    /* ============= Bento Section ============= */
+    .bento-section {
+      padding: 40px 16px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .bento-section {
+        padding: 60px 20px;
+      }
+    }
+
+    .bento-header {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .bento-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #d32f2f;
+      margin-bottom: 12px;
+    }
+
+    .bento-subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 768px) {
+      .bento-title {
+        font-size: 32px;
+      }
+
+      .bento-subtitle {
+        font-size: 15px;
+      }
+    }
+
+    .bento-container {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .bento-container {
+        max-width: 100%;
+        flex-direction: row;
+        gap: 24px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+    }
+
+    .bento-item {
+      text-align: center;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .bento-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .bento-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 12px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    .bento-item-button {
+      display: none;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 16px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .bento-item-button:hover {
+      background: linear-gradient(135deg, #f57c00 0%, #e65100 100%);
+      box-shadow: 0 6px 16px rgba(255, 152, 0, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .bento-item-button:active {
+      transform: translateY(0);
+    }
+
+    .bento-item:nth-child(1) .bento-item-button,
+    .bento-item:nth-child(2) .bento-item-button,
+    .bento-item:nth-child(3) .bento-item-button,
+    .bento-item:nth-child(4) .bento-item-button,
+    .bento-item:nth-child(5) .bento-item-button,
+    .bento-item:nth-child(6) .bento-item-button,
+    .bento-item:nth-child(7) .bento-item-button {
+      display: none;
+    }
+
+    .bento-item:nth-child(8) .bento-item-button {
+      display: inline-block;
+    }
+
+    @media (min-width: 768px) {
+      .bento-item:nth-child(1) .bento-item-button,
+      .bento-item:nth-child(2) .bento-item-button,
+      .bento-item:nth-child(3) .bento-item-button,
+      .bento-item:nth-child(4) .bento-item-button,
+      .bento-item:nth-child(5) .bento-item-button,
+      .bento-item:nth-child(6) .bento-item-button,
+      .bento-item:nth-child(7) .bento-item-button,
+      .bento-item:nth-child(8) .bento-item-button {
+        display: inline-block;
+        margin-bottom: 0;
+      }
+
+      .bento-item {
+        flex: 0 0 calc(25% - 18px);
+        max-width: 280px;
+      }
+
+      .bento-item img {
+        max-width: 100%;
+      }
+    }
+
+    /* ============= Box Section ============= */
+    .box-section {
+      padding: 40px 16px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .box-section {
+        padding: 60px 20px;
+      }
+    }
+
+    .box-header {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .box-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #d32f2f;
+      margin-bottom: 12px;
+    }
+
+    .box-subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 768px) {
+      .box-title {
+        font-size: 32px;
+      }
+
+      .box-subtitle {
+        font-size: 15px;
+      }
+    }
+
+    .box-container {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .box-container {
+        max-width: 100%;
+        flex-direction: row;
+        gap: 24px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+    }
+
+    .box-item {
+      text-align: center;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .box-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .box-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 12px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    .box-item-button {
+      display: none;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 16px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .box-item-button:hover {
+      background: linear-gradient(135deg, #f57c00 0%, #e65100 100%);
+      box-shadow: 0 6px 16px rgba(255, 152, 0, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .box-item-button:active {
+      transform: translateY(0);
+    }
+
+    .box-item:nth-child(1) .box-item-button,
+    .box-item:nth-child(2) .box-item-button,
+    .box-item:nth-child(3) .box-item-button,
+    .box-item:nth-child(4) .box-item-button,
+    .box-item:nth-child(5) .box-item-button,
+    .box-item:nth-child(6) .box-item-button,
+    .box-item:nth-child(7) .box-item-button {
+      display: none;
+    }
+
+    .box-item:nth-child(8) .box-item-button {
+      display: inline-block;
+    }
+
+    @media (min-width: 768px) {
+      .box-item:nth-child(1) .box-item-button,
+      .box-item:nth-child(2) .box-item-button,
+      .box-item:nth-child(3) .box-item-button,
+      .box-item:nth-child(4) .box-item-button,
+      .box-item:nth-child(5) .box-item-button,
+      .box-item:nth-child(6) .box-item-button,
+      .box-item:nth-child(7) .box-item-button,
+      .box-item:nth-child(8) .box-item-button {
+        display: inline-block;
+        margin-bottom: 0;
+      }
+
+      .box-item {
+        flex: 0 0 calc(25% - 18px);
+        max-width: 280px;
+      }
+
+      .box-item img {
+        max-width: 100%;
+      }
+    }
+
+    /* ============= Why Choose Section ============= */
+    .why-choose-section {
+      padding: 40px 16px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .why-choose-section {
+        padding: 60px 20px;
+      }
+    }
+
+    .why-choose-header {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .why-choose-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #d32f2f;
+      margin-bottom: 12px;
+    }
+
+    .why-choose-subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    @media (min-width: 768px) {
+      .why-choose-title {
+        font-size: 32px;
+      }
+
+      .why-choose-subtitle {
+        font-size: 15px;
+      }
+    }
+
+    .why-choose-container {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .why-choose-container {
+        max-width: 100%;
+        flex-direction: row;
+        gap: 24px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+    }
+
+    .why-choose-item {
+      text-align: center;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .why-choose-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .why-choose-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 12px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    .why-choose-item-button {
+      display: none;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 16px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .why-choose-item-button:hover {
+      background: linear-gradient(135deg, #f57c00 0%, #e65100 100%);
+      box-shadow: 0 6px 16px rgba(255, 152, 0, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .why-choose-item-button:active {
+      transform: translateY(0);
+    }
+
+    .why-choose-item:nth-child(1) .why-choose-item-button,
+    .why-choose-item:nth-child(2) .why-choose-item-button,
+    .why-choose-item:nth-child(3) .why-choose-item-button {
+      display: none;
+    }
+
+    .why-choose-item:nth-child(4) .why-choose-item-button {
+      display: inline-block;
+    }
+
+    @media (min-width: 768px) {
+      .why-choose-item:nth-child(1) .why-choose-item-button,
+      .why-choose-item:nth-child(2) .why-choose-item-button,
+      .why-choose-item:nth-child(3) .why-choose-item-button,
+      .why-choose-item:nth-child(4) .why-choose-item-button {
+        display: inline-block;
+        margin-bottom: 0;
+      }
+
+      .why-choose-item {
+        flex: 1;
+        max-width: 280px;
+      }
+
+      .why-choose-item img {
+        max-width: 100%;
+      }
+    }
+
+    /* ============= Syariat Aqiqah Section ============= */
+    .syariat-section {
+      padding: 40px 16px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .syariat-section {
+        padding: 60px 20px;
+      }
+    }
+
+    .syariat-container {
+      max-width: 600px;
+      margin: 0 auto;
+      position: relative;
+      background: linear-gradient(135deg, rgba(74, 12, 12, 0.05) 0%, rgba(107, 21, 21, 0.05) 50%, rgba(255, 193, 7, 0.05) 100%);
+      border-radius: 20px;
+      padding: 30px 20px;
+      border: 2px solid rgba(74, 12, 12, 0.1);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .syariat-container::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, rgba(255, 193, 7, 0.15) 0%, transparent 70%);
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    .syariat-container::after {
+      content: '';
+      position: absolute;
+      bottom: -30%;
+      left: -30%;
+      width: 180px;
+      height: 180px;
+      background: radial-gradient(circle, rgba(74, 12, 12, 0.1) 0%, transparent 70%);
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    .syariat-content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .syariat-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #d32f2f;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    @media (min-width: 768px) {
+      .syariat-title {
+        font-size: 32px;
+        margin-bottom: 24px;
+      }
+    }
+
+    .syariat-text {
+      font-size: 13px;
+      font-weight: 500;
+      color: #333;
+      line-height: 1.8;
+      margin-bottom: 24px;
+      text-align: justify;
+      letter-spacing: 0.2px;
+    }
+
+    @media (min-width: 768px) {
+      .syariat-text {
+        font-size: 14px;
+        line-height: 1.9;
+        margin-bottom: 28px;
+      }
+    }
+
+    .syariat-button {
+      display: inline-block;
+      padding: 14px 32px;
+      background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .syariat-button:hover {
+      background: linear-gradient(135deg, #f57c00 0%, #e65100 100%);
+      box-shadow: 0 6px 16px rgba(255, 152, 0, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .syariat-button:active {
+      transform: translateY(0);
+    }
+
+    /* ============= Horizontal Slider Section ============= */
+    .horizontal-slider-section {
+      padding: 40px 12px;
+      background: #ffffff;
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      .horizontal-slider-section {
+        padding: 50px 20px;
+      }
+    }
+
+    .horizontal-slider-header {
+      max-width: 600px;
+      margin: 0 auto 28px;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .horizontal-slider-header {
+        max-width: 100%;
+        margin: 0 auto 32px;
+      }
+    }
+
+    .horizontal-slider-title {
+      font-size: 26px;
+      font-weight: 700;
+      color: #d32f2f;
+      margin-bottom: 8px;
+      letter-spacing: 0.3px;
+    }
+
+    .horizontal-slider-subtitle {
+      font-size: 13px;
+      font-weight: 500;
+      color: #777;
+      line-height: 1.5;
+    }
+
+    @media (min-width: 768px) {
+      .horizontal-slider-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      .horizontal-slider-subtitle {
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    }
+
+    /* Slider Wrapper */
+    .horizontal-slider-wrapper {
+      position: relative;
+      overflow: hidden;
+      background: #ffffff;
+      margin: 0 auto 12px;
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    @media (min-width: 768px) {
+      .horizontal-slider-wrapper {
+        border-radius: 14px;
+        background: #fafbfc;
+        margin: 0 auto 12px;
+      }
+    }
+
+    .horizontal-slider-wrapper:last-of-type {
+      margin-bottom: 0;
+    }
+
+    /* Divider */
+    .slider-divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, #e8e8e8 50%, transparent 100%);
+      margin: 4px auto 8px;
+      max-width: 600px;
+    }
+
+    @media (min-width: 768px) {
+      .slider-divider {
+        margin: 4px auto 8px;
+      }
+    }
+
+    /* Mobile: 1 gambar per slide */
+    .horizontal-slider {
+      display: flex;
+      scroll-snap-type: x mandatory;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      gap: 0;
+    }
+
+    .horizontal-slider::-webkit-scrollbar {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .horizontal-slider {
+        gap: 14px;
+        padding: 14px;
+        scroll-snap-type: none;
+      }
+    }
+
+    .horizontal-slide {
+      flex: 0 0 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      aspect-ratio: 1 / 1;
+      background: #f5f5f5;
+      padding: 0;
+      width: 100%;
+      border-radius: 0;
+      overflow: hidden;
+    }
+
+    @media (min-width: 768px) {
+      .horizontal-slide {
+        flex: 0 0 calc(33.333% - 9.33px);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        scroll-snap-align: center;
+        cursor: pointer;
+        background: #fff;
+        aspect-ratio: 1 / 1;
+      }
+
+      .horizontal-slide:hover {
+        transform: translateY(-5px) scale(1.02);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.11);
+      }
+    }
+
+    .horizontal-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      animation: fadeInSlide 0.5s ease-in-out;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    @keyframes fadeInSlide {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Horizontal Slider Indicators */
+    .horizontal-slider-indicators {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      padding: 10px 12px;
+      background: #ffffff;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+      .horizontal-slider-indicators {
+        max-width: 100%;
+        padding: 10px;
+        background: #fafbfc;
+        gap: 6px;
+      }
+    }
+
+    .horizontal-indicator {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #d8d8d8;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .horizontal-indicator:hover {
+      background: #ffb300;
+      transform: scale(1.15);
+    }
+
+    .horizontal-indicator.active {
+      background: #ffc107;
+      width: 22px;
+      border-radius: 2.5px;
+      box-shadow: 0 2px 6px rgba(255, 193, 7, 0.2);
+    }
+
+    /* ============= Slider Action Button ============= */
+    .slider-action-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    @media (min-width: 768px) {
+      .slider-action-button {
+        margin-top: 16px;
+        margin-bottom: 12px;
+      }
+    }
+
+    /* WhatsApp Button - Orange */
+    .whatsapp-button {
+      background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+      color: #ffffff;
+      border: none;
+      padding: 12px 28px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .whatsapp-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(255, 152, 0, 0.4);
+    }
+
+    .whatsapp-button:active {
+      transform: translateY(0);
+    }
+
+    @media (min-width: 768px) {
+      .whatsapp-button {
+        padding: 14px 32px;
+        font-size: 15px;
+      }
+    }
+
+    /* ============= Testimoni Header ============= */
+    .testimoni-header {
+      max-width: 600px;
+      margin: 28px auto;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .testimoni-header {
+        max-width: 100%;
+        margin: 32px auto;
+      }
+    }
+
+    .testimoni-title {
+      font-size: 26px;
+      font-weight: 700;
+      color: #d32f2f;
+      margin-bottom: 8px;
+      letter-spacing: 0.3px;
+    }
+
+    .testimoni-subtitle {
+      font-size: 13px;
+      font-weight: 500;
+      color: #777;
+      line-height: 1.5;
+    }
+
+    @media (min-width: 768px) {
+      .testimoni-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      .testimoni-subtitle {
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    }
+
+    /* ============= Logo Section ============= */
+    .logo-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 12px;
+    }
+
+    .logo-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+      object-fit: contain;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    @media (min-width: 768px) {
+      .logo-image {
+        max-width: 80%;
+        border-radius: 14px;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .logo-image {
+        max-width: 70%;
+      }
+    }
+
+    /* ============= Footer Section ============= */
+    .footer-section {
+      position: relative;
+      background: linear-gradient(to bottom, #f5c842 0%, #f5a623 50%, #f5c842 100%);
+      overflow: hidden;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    /* Wave/Diagonal top */
+    .footer-wave-top {
+      position: relative;
+      width: 100%;
+      height: 60px;
+      background: linear-gradient(135deg, #f5c842 0%, #ffd966 50%, #fcc95c 100%);
+      clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+    }
+
+    @media (min-width: 768px) {
+      .footer-wave-top {
+        height: 80px;
+        clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+      }
+    }
+
+    /* Wave/Diagonal bottom (V shape) */
+    .footer-wave-bottom {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      background: linear-gradient(to bottom, #f5c842 0%, #f5a623 100%);
+      clip-path: polygon(0 0, 50% 100%, 100% 0);
+      margin-top: auto;
+    }
+
+    @media (min-width: 768px) {
+      .footer-wave-bottom {
+        height: 70px;
+        clip-path: polygon(0 0, 50% 100%, 100% 0);
+      }
+    }
+
+    /* Footer Content */
+    .footer-content {
+      position: relative;
+      z-index: 1;
+      padding: 40px 20px;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .footer-content {
+        padding: 50px 40px;
+      }
+    }
+
+    .footer-container {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .footer-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: center;
+        gap: 40px;
+      }
+    }
+
+    .footer-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+    }
+
+    /* Footer Logo Column */
+    .footer-logo {
+      min-height: 120px;
+    }
+
+    .footer-logo-image {
+      width: 100%;
+      max-width: 140px;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    @media (min-width: 768px) {
+      .footer-logo-image {
+        max-width: 130px;
+      }
+    }
+
+    /* Footer Contact and Address */
+    .footer-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    @media (min-width: 768px) {
+      .footer-title {
+        font-size: 18px;
+        margin-bottom: 14px;
+      }
+    }
+
+    .footer-text {
+      font-size: 14px;
+      font-weight: 500;
+      color: #ffffff;
+      line-height: 1.7;
+      margin: 0;
+      max-width: 280px;
+    }
+
+    @media (min-width: 768px) {
+      .footer-text {
+        font-size: 15px;
+        line-height: 1.8;
+      }
+    }
+
+    .footer-link {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer Bottom */
+    .footer-bottom {
+      background: linear-gradient(to right, #e67e22 0%, #d97634 50%, #d35400 100%);
+      padding: 20px 20px;
+      text-align: center;
+      border-top: 2px solid rgba(255, 255, 255, 0.1);
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .footer-bottom {
+        padding: 22px 40px;
+      }
+    }
+
+    .footer-website {
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+      margin: 0;
+      letter-spacing: 0.3px;
+    }
+
+    @media (min-width: 768px) {
+      .footer-website {
+        font-size: 16px;
+      }
+    }
+
+    /* ============= Bottom Navigation ============= */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background: #ffffff;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 4px 0;
+      border-top: 2px solid #e0e0e0;
+      box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+      z-index: 1000;
+      gap: 0;
+    }
+
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #4a0c0c;
+      font-size: 11px;
+      font-weight: 600;
+      gap: 2px;
+      padding: 4px 8px;
+      border-radius: 8px;
+      transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      position: relative;
+      overflow: hidden;
+      flex: 1;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .nav-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 193, 7, 0.1);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.3s ease;
+      z-index: -1;
+    }
+
+    .nav-item:hover::before {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    .nav-item:active {
+      transform: scale(0.95);
+    }
+
+    .nav-icon {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    .nav-item:hover .nav-icon {
+      transform: scale(1.15);
+    }
+
+    .nav-icon.home-icon {
+      width: 36px;
+      height: 36px;
+    }
+
+    .nav-label {
+      text-align: center;
+      max-width: 60px;
+      line-height: 1.2;
+    }
+
+    .nav-label.home-label {
+      display: none;
+    }
+
+    /* ============= Main Content Padding ============= */
+    main {
+      padding-bottom: 70px;
+    }
+
+    @media (min-width: 768px) {
+      main {
+        padding-bottom: 100px;
+      }
+
+      .slider-section {
+        width: 100%;
+        max-width: none;
+      }
+
+      .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transform: none;
+        border-radius: 0;
+        border-top: 2px solid #e0e0e0;
+        padding: 6px 0;
+      }
+
+      .nav-item {
+        font-size: 12px;
+        gap: 4px;
+        padding: 6px 10px;
+      }
+
+      .nav-icon {
+        width: 32px;
+        height: 32px;
+      }
+
+      .nav-icon.home-icon {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    /* ============= Image Modal ============= */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal.active {
+      display: flex;
+    }
+
+    .modal-content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      pointer-events: none;
+    }
+
+    .modal-close {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: none;
+      font-size: 28px;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      z-index: 2001;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .modal-close:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* ============= Accessibility ============= */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Modal untuk gambar harga -->
+  <div id="priceModal" class="modal">
+    <button class="modal-close" onclick="closeModal()">&times;</button>
+    <div class="modal-content">
+      <img id="modalImg" src="" alt="Daftar Harga" class="modal-img" oncontextmenu="return false;" ondragstart="return false;">
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 oncontextmenu="return false;">
+        <span class="white">AQIQAH HEBAT POWERED BY</span><span class="yellow">JURAGAN KAMBING</span>
+      </h1>
+    </section>
+
+    <!-- Slider Promo Section -->
+    <section class="slider-section">
+      <div class="slider-wrapper">
+        <div class="slider" id="promoSlider">
+          <div class="slide">
+            <picture>
+              <source media="(min-width: 768px)" srcset="https://juragankambing.co.id/wp-content/uploads/2025/03/Aqiqah-2024-4.jpg">
+              <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Slide-1.jpg" alt="Promo Paket Aqiqah 2,1 Juta" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+            </picture>
+          </div>
+          <div class="slide">
+            <picture>
+              <source media="(min-width: 768px)" srcset="https://juragankambing.co.id/wp-content/uploads/2025/03/Aqiqah-2024-2.jpg">
+              <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Slide-2.jpg" alt="Promo Paket Aqiqah 3,1 Juta" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+            </picture>
+          </div>
+          <div class="slide">
+            <picture>
+              <source media="(min-width: 768px)" srcset="https://juragankambing.co.id/wp-content/uploads/2025/03/Aqiqah-2024-3.jpg">
+              <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Slide-3.jpg" alt="Promo Paket Aqiqah 3,8 Juta" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+            </picture>
+          </div>
+          <div class="slide">
+            <picture>
+              <source media="(min-width: 768px)" srcset="https://juragankambing.co.id/wp-content/uploads/2025/03/Aqiqah-2024-1.jpg">
+              <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Slide-4.jpg" alt="Promo Paket Aqiqah 4,5 Juta" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+            </picture>
+          </div>
+        </div>
+        <div class="slider-indicators" id="indicators"></div>
+      </div>
+    </section>
+
+    <!-- Extra Image Section -->
+    <section class="extra-image-section">
+      <div class="extra-image">
+        <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Pondok-Cabe.jpg" alt="Galeri Hidangan Daging" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+      </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="marquee-section">
+      <div class="marquee-section-inner">
+        <div class="marquee" oncontextmenu="return false;">
+          Alamat: Jl. H. Solichin Blok B11 RT. 01 RW. 28 Baktijaya Sukmajaya Depok 16418
+        </div>
+      </div>
+    </section>
+
+    <!-- Desktop CTA Button Section -->
+    <section class="cta-section-desktop">
+      <a href="https://wa.me/6281413333513" class="cta-button" target="_blank" rel="noopener noreferrer">
+        Pesan Via WA
+      </a>
+    </section>
+
+    <!-- CTA Button Section (Mobile Only) -->
+    <section class="cta-section">
+      <a href="https://wa.me/6281413333513" class="cta-button" target="_blank" rel="noopener noreferrer">
+        Pesan Via WA
+      </a>
+    </section>
+
+    <!-- About Section (Mobile Only) -->
+    <section class="about-section">
+      <div class="about-image">
+        <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Juragan-Kambing-2025-2-scaled.jpg?w=2048&h=2560" alt="Juragan Kambing" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+      </div>
+      <div class="about-content" oncontextmenu="return false;">
+        <p>
+          Juragan kambing fokus memberikan pelayanan dalam bidang Jasa Aqiqah. Keseriusan dalam bidang ini telah mengantarkan juragan kambing sebagai Jasa Aqiqah yang amanah & terpercaya
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-9-FILEminimizer.jpg?w=1024&h=1023" alt="Harga Aqiqah 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+        </div>
+        <div class="gallery-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-8-FILEminimizer.jpg?w=1024&h=1023" alt="Harga Aqiqah 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+        </div>
+        <div class="gallery-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Promo-Aqiqah-1-FILEminimizer.jpg?w=1024&h=1023" alt="Promo Aqiqah 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+        </div>
+      </div>
+    </section>
+
+    <!-- Price Section -->
+    <section class="price-section">
+      <div class="price-header" oncontextmenu="return false;">
+        <h2 class="price-title">DAFTAR HARGA AQIQAH</h2>
+        <p class="price-subtitle">Kami berikan penawaran paket terbaik pilihan yang disesuaikan dengan kebutuhan anda</p>
+      </div>
+      <div class="price-container">
+        <div class="price-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-10-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Harga 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="price-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="price-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-11-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Harga 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="price-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="price-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-12-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Harga 3" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="price-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="price-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-13-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Harga 4" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="price-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bento Section -->
+    <section class="bento-section">
+      <div class="bento-header" oncontextmenu="return false;">
+        <h2 class="bento-title">DAFTAR HARGA PAKET BENTO</h2>
+        <p class="bento-subtitle">Kami berikan penawaran paket terbaik untuk kemasan Bento, lebih hemat dan terjangkau</p>
+      </div>
+      <div class="bento-container">
+        <div class="bento-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-14-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Bento 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="bento-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="bento-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-15-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Bento 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="bento-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="bento-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-16-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Bento 3" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="bento-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="bento-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-17-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Bento 4" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="bento-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="bento-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-18-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Bento 5" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="bento-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="bento-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-19-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Bento 6" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="bento-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="bento-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Bento-100.jpg?w=1024&h=1023" alt="Paket Bento 7" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="bento-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="bento-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Bento-120.jpg?w=1024&h=1023" alt="Paket Bento 8" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="bento-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Box Section -->
+    <section class="box-section">
+      <div class="box-header" oncontextmenu="return false;">
+        <h2 class="box-title">DAFTAR HARGA PAKET BOX</h2>
+        <p class="box-subtitle">Kami berikan penawaran paket terbaik untuk kemasan Box Eksklusif</p>
+      </div>
+      <div class="box-container">
+        <div class="box-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-22-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Box 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="box-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="box-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-23-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Box 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="box-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="box-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-24-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Box 3" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="box-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="box-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-25-FILEminimizer%20(1).jpg?w=1024&h=1023" alt="Paket Box 4" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="box-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="box-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-26-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Box 5" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="box-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="box-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-27-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Box 6" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="box-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="box-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-28-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Box 7" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="box-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="box-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-29-FILEminimizer.jpg?w=1024&h=1023" alt="Paket Box 8" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="box-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose-section">
+      <div class="why-choose-header" oncontextmenu="return false;">
+        <h2 class="why-choose-title">MENGAPA MEMILIH KAMI</h2>
+        <p class="why-choose-subtitle">Berikut ini adalah keunggulan layanan Aqiqah kami</p>
+      </div>
+      <div class="why-choose-container">
+        <div class="why-choose-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-30-FILEminimizer.jpg?w=1024&h=1023" alt="Keunggulan 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="why-choose-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="why-choose-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-31-FILEminimizer.jpg?w=1024&h=1023" alt="Keunggulan 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="why-choose-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="why-choose-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-32-FILEminimizer.jpg?w=1024&h=1023" alt="Keunggulan 3" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="why-choose-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+        <div class="why-choose-item">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Harga-Aqiqah-33-FILEminimizer.jpg?w=1024&h=1023" alt="Keunggulan 4" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          <a href="https://wa.me/6281413333513" class="why-choose-item-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Syariat Aqiqah Section -->
+    <section class="syariat-section">
+      <div class="syariat-container">
+        <div class="syariat-content" oncontextmenu="return false;">
+          <h2 class="syariat-title">SYARIAT AQIQAH</h2>
+          <p class="syariat-text">
+            Imam Ahmad dan Tirmidzi meriwayatkan dari ummu karaz al ka'biyah bahwa dia bertanya kepada rasulullah tentang akikah. Beliau bersabda: "Bagi anak laki-laki disembelihkan dua ekor kambing dan bagi anak perempuan disembelihkan satu ekor, dan tidak membahayakan kamu sekalian apakah sembelihan itu jantan atau betina."
+          </p>
+          <a href="https://wa.me/6281413333513" class="syariat-button" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= New Horizontal Slider Section ============= -->
+    <section class="horizontal-slider-section">
+      <div class="horizontal-slider-header" oncontextmenu="return false;">
+        <h2 class="horizontal-slider-title">GALERI AQIQAH KAMI</h2>
+        <p class="horizontal-slider-subtitle">Koleksi hidangan dan acara aqiqah terbaik dari kami</p>
+      </div>
+      
+      <!-- Slider 1 -->
+      <div class="horizontal-slider-wrapper">
+        <div class="horizontal-slider" id="horizontalSlider">
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-21.jpg?w=800&h=800" alt="Galeri Aqiqah 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-22.jpg?w=800&h=800" alt="Galeri Aqiqah 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-23.jpg?w=800&h=800" alt="Galeri Aqiqah 3" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-24.jpg?w=800&h=800" alt="Galeri Aqiqah 4" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-25.jpg?w=800&h=800" alt="Galeri Aqiqah 5" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-26.jpg?w=800&h=800" alt="Galeri Aqiqah 6" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-27.jpg?w=800&h=800" alt="Galeri Aqiqah 7" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-28.jpg?w=800&h=800" alt="Galeri Aqiqah 8" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-29.jpg?w=800&h=800" alt="Galeri Aqiqah 9" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-30.jpg?w=800&h=800" alt="Galeri Aqiqah 10" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+        </div>
+        <div class="horizontal-slider-indicators" id="horizontalIndicators"></div>
+      </div>
+
+      <!-- Divider -->
+      <div class="slider-divider"></div>
+
+      <!-- Slider 2 -->
+      <div class="horizontal-slider-wrapper">
+        <div class="horizontal-slider" id="horizontalSlider2">
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-31.jpg?w=800&h=800" alt="Testimoni Aqiqah 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-32.jpg?w=800&h=800" alt="Testimoni Aqiqah 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-33.jpg?w=800&h=800" alt="Testimoni Aqiqah 3" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-34.jpg?w=800&h=800" alt="Testimoni Aqiqah 4" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-35.jpg?w=800&h=800" alt="Testimoni Aqiqah 5" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-36.jpg?w=800&h=800" alt="Testimoni Aqiqah 6" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-37.jpg?w=800&h=800" alt="Testimoni Aqiqah 7" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-38.jpg?w=800&h=800" alt="Testimoni Aqiqah 8" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-39.jpg?w=800&h=800" alt="Testimoni Aqiqah 9" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-40.jpg?w=800&h=800" alt="Testimoni Aqiqah 10" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+        </div>
+        <div class="horizontal-slider-indicators" id="horizontalIndicators2"></div>
+      </div>
+
+      <!-- Divider -->
+      <div class="slider-divider"></div>
+
+      <!-- Slider 3 -->
+      <div class="horizontal-slider-wrapper">
+        <div class="horizontal-slider" id="horizontalSlider3">
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-11.jpg?w=800&h=800" alt="Galeri Aqiqah 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-12.jpg?w=800&h=800" alt="Galeri Aqiqah 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-13.jpg?w=800&h=800" alt="Galeri Aqiqah 3" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-14.jpg?w=800&h=800" alt="Galeri Aqiqah 4" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-15.jpg?w=800&h=800" alt="Galeri Aqiqah 5" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-16.jpg?w=800&h=800" alt="Galeri Aqiqah 6" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-17.jpg?w=800&h=800" alt="Galeri Aqiqah 7" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-18.jpg?w=800&h=800" alt="Galeri Aqiqah 8" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-19.jpg?w=800&h=800" alt="Galeri Aqiqah 9" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-20.jpg?w=800&h=800" alt="Galeri Aqiqah 10" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+        </div>
+        <div class="horizontal-slider-indicators" id="horizontalIndicators3"></div>
+      </div>
+
+      <!-- Divider -->
+      <div class="slider-divider"></div>
+
+      <!-- Slider 4 -->
+      <div class="horizontal-slider-wrapper">
+        <div class="horizontal-slider" id="horizontalSlider4">
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-1.jpg?w=800&h=800" alt="Galeri Aqiqah 1" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-2.jpg?w=800&h=800" alt="Galeri Aqiqah 2" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-3.jpg?w=800&h=800" alt="Galeri Aqiqah 3" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-4.jpg?w=800&h=800" alt="Galeri Aqiqah 4" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-5.jpg?w=800&h=800" alt="Galeri Aqiqah 5" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-6.jpg?w=800&h=800" alt="Galeri Aqiqah 6" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-7.jpg?w=800&h=800" alt="Galeri Aqiqah 7" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-8.jpg?w=800&h=800" alt="Galeri Aqiqah 8" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-9.jpg?w=800&h=800" alt="Galeri Aqiqah 9" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Juragan-Kambing-Aqiqah-10.jpg?w=800&h=800" alt="Galeri Aqiqah 10" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+        </div>
+        <div class="horizontal-slider-indicators" id="horizontalIndicators4"></div>
+      </div>
+
+      <!-- Slider Action Button - Tombol Pesan via WA di bawah Slider 4 -->
+      <div class="slider-action-button">
+        <a href="https://wa.me/6281413333513" class="whatsapp-button" target="_blank" rel="noopener noreferrer">Pesan via WA</a>
+      </div>
+
+      <!-- Divider -->
+      <div class="slider-divider"></div>
+
+      <!-- Testimoni Header -->
+      <div class="testimoni-header" oncontextmenu="return false;">
+        <h2 class="testimoni-title">TESTIMONI</h2>
+        <p class="testimoni-subtitle">Beberapa testimoni dari pelanggan kami</p>
+      </div>
+
+      <!-- Slider 5 - Aqiqah Terdekat -->
+      <div class="horizontal-slider-wrapper">
+        <div class="horizontal-slider" id="horizontalSlider5">
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Pondok-Benda.jpg?w=900&h=1040" alt="Aqiqah Terdekat Pondok Benda" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Pamulang.jpg?w=900&h=1040" alt="Aqiqah Terdekat Pamulang" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Muncul.jpg?w=900&h=1040" alt="Aqiqah Terdekat Muncul" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Karawaci.jpg?w=900&h=1040" alt="Aqiqah Terdekat Karawaci" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Juragan-Kambing.jpg?w=900&h=1040" alt="Aqiqah Terdekat Juragan Kambing" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Cirendeu.jpg?w=900&h=1040" alt="Aqiqah Terdekat Cirendeu" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Ciputat.jpg?w=900&h=1040" alt="Aqiqah Terdekat Ciputat" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-BSD.jpg?w=900&h=1040" alt="Aqiqah Terdekat BSD" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Serpong.jpg?w=900&h=1040" alt="Aqiqah Terdekat Serpong" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Sawangan-Depok.jpg?w=900&h=1040" alt="Aqiqah Terdekat Sawangan Depok" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+          <div class="horizontal-slide">
+            <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Aqiqah-Terdekat-Pondok-Cabe.jpg?w=900&h=1040" alt="Aqiqah Terdekat Pondok Cabe" loading="lazy" oncontextmenu="return false;" ondragstart="return false;">
+          </div>
+        </div>
+        <div class="horizontal-slider-indicators" id="horizontalIndicators5"></div>
+      </div>
+
+      <!-- Divider -->
+      <div class="slider-divider"></div>
+
+      <!-- Logo Section -->
+      <div class="logo-section">
+        <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Gambar-Logo-Aspaqin.jpg?w=2397&h=600" alt="Gambar Logo Aspaqin" loading="lazy" class="logo-image" oncontextmenu="return false;" ondragstart="return false;">
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="footer-wave-top"></div>
+    
+    <div class="footer-content">
+      <div class="footer-container">
+        <!-- Footer Column 1 - Logo -->
+        <div class="footer-column footer-logo">
+          <img src="https://6a11c3f5e92048e6f0238974.imgix.net/logojkm-edited%20(1).png?w=1712&h=1654" alt="Logo JKM" loading="lazy" class="footer-logo-image" oncontextmenu="return false;" ondragstart="return false;">
+        </div>
+
+        <!-- Footer Column 2 - Contact -->
+        <div class="footer-column footer-contact" oncontextmenu="return false;">
+          <h3 class="footer-title">Kontak Kami</h3>
+          <p class="footer-text">HP/WA: <a href="tel:+6281413333513" class="footer-link">0814-1333-3513</a></p>
+        </div>
+
+        <!-- Footer Column 3 - Address -->
+        <div class="footer-column footer-address" oncontextmenu="return false;">
+          <h3 class="footer-title">Alamat Pemasaran</h3>
+          <p class="footer-text">Jl. H. Solichin Blok B11 RT- 01 RW. 28 Baktijaya Sukmajaya Depok</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-wave-bottom"></div>
+
+    <div class="footer-bottom" oncontextmenu="return false;">
+      <p class="footer-website">www.jasaaqiqahdepok.com</p>
+    </div>
+  </footer>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <a href="https://maps.app.goo.gl/BsP5BfqCHDkdcBXi7?g_st=awb" class="nav-item" title="Lihat Lokasi" target="_blank" rel="noopener noreferrer">
+      <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Lokasijad.jpg?w=591&h=591" alt="Lokasi" class="nav-icon" oncontextmenu="return false;" ondragstart="return false;">
+      <span class="nav-label">Lokasi</span>
+    </a>
+    <a href="#harga" class="nav-item" title="Lihat Harga" onclick="openPriceModal(event)">
+      <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Hargajad.jpg?w=591&h=591" alt="Harga" class="nav-icon" oncontextmenu="return false;" ondragstart="return false;">
+      <span class="nav-label">Harga</span>
+    </a>
+    <a href="#home" class="nav-item" title="Beranda">
+      <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Logojk-wiwid.png?w=1181&h=1181" alt="Juragan Kambing" class="nav-icon home-icon" oncontextmenu="return false;" ondragstart="return false;">
+      <span class="nav-label home-label">Home</span>
+    </a>
+    <a href="https://wa.me/6281413333513" class="nav-item" title="Chat WhatsApp" target="_blank" rel="noopener noreferrer">
+      <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Chatjad.jpg?w=591&h=591" alt="WhatsApp" class="nav-icon" oncontextmenu="return false;" ondragstart="return false;">
+      <span class="nav-label">WhatsApp</span>
+    </a>
+    <a href="tel:081413333513" class="nav-item" title="Hubungi Telepon">
+      <img src="https://6a11c3f5e92048e6f0238974.imgix.net/Calljad.jpg?w=591&h=591" alt="Telepon" class="nav-icon" oncontextmenu="return false;" ondragstart="return false;">
+      <span class="nav-label">Telepon</span>
+    </a>
+  </nav>
+
+  <!-- JavaScript dengan Proteksi -->
+  <script>
+    // ===== PROTEKSI KODE =====
+    // Disable Right Click
+    document.addEventListener('contextmenu', function(event) {
+      event.preventDefault();
+      return false;
+    });
+
+    // Disable Drag
+    document.addEventListener('dragstart', function(event) {
+      event.preventDefault();
+      return false;
+    });
+
+    // Disable Inspect Element (F12, Ctrl+Shift+C, Ctrl+Shift+I, Ctrl+Shift+J)
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'F12' || 
+          (event.ctrlKey && event.shiftKey && event.key === 'C') ||
+          (event.ctrlKey && event.shiftKey && event.key === 'I') ||
+          (event.ctrlKey && event.shiftKey && event.key === 'J') ||
+          (event.ctrlKey && event.key === 'U')) {
+        event.preventDefault();
+        return false;
+      }
+    });
+
+    // Disable Text Selection
+    document.body.style.userSelect = 'none';
+    document.body.style.webkitUserSelect = 'none';
+
+    // ===== FUNGSI APLIKASI =====
+    // ========== Modal Functions ==========
+    function openPriceModal(event) {
+      event.preventDefault();
+      const modal = document.getElementById('priceModal');
+      const img = document.getElementById('modalImg');
+      img.src = 'https://6a11c3f5e92048e6f0238974.imgix.net/Daftar-Harga-Aqiqah-1-scaled-1.jpg?w=1829&h=2560';
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('priceModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    // Close modal when clicking outside the image
+    document.getElementById('priceModal').addEventListener('click', function(event) {
+      if (event.target === this) {
+        closeModal();
+      }
+    });
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeModal();
+      }
+    });
+
+    // ========== Slider Auto Scroll ==========
+    const slider = document.getElementById('promoSlider');
+    const slides = slider.querySelectorAll('.slide');
+    const indicatorsContainer = document.getElementById('indicators');
+    let currentIndex = 0;
+
+    // Create indicators
+    slides.forEach((_, index) => {
+      const indicator = document.createElement('div');
+      indicator.className = `indicator ${index === 0 ? 'active' : ''}`;
+      indicator.addEventListener('click', () => goToSlide(index));
+      indicatorsContainer.appendChild(indicator);
+    });
+
+    const indicators = document.querySelectorAll('.indicator');
+
+    function updateIndicators() {
+      indicators.forEach((indicator, index) => {
+        indicator.classList.toggle('active', index === currentIndex);
+      });
+    }
+
+    function goToSlide(index) {
+      currentIndex = index;
+      slider.scrollTo({
+        left: slides[index].offsetLeft,
+        behavior: 'smooth'
+      });
+      updateIndicators();
+    }
+
+    // Auto scroll setiap 4 detik
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      goToSlide(currentIndex);
+    }, 4000);
+
+    // Update indicator saat manual scroll
+    let scrollTimeout;
+    slider.addEventListener('scroll', () => {
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        const scrollLeft = slider.scrollLeft;
+        const slideWidth = slides[0].offsetWidth;
+        currentIndex = Math.round(scrollLeft / slideWidth);
+        updateIndicators();
+      }, 150);
+    });
+
+    // ========== Horizontal Slider Auto Scroll ==========
+    function initSlider(sliderId, indicatorsId) {
+      const horizontalSlider = document.getElementById(sliderId);
+      const horizontalSlides = horizontalSlider.querySelectorAll('.horizontal-slide');
+      const horizontalIndicatorsContainer = document.getElementById(indicatorsId);
+      let currentHorizontalIndex = 0;
+      let autoScrollTimer = null;
+
+      // Hitung jumlah indicator berdasarkan viewport
+      function getIndicatorCount() {
+        if (window.innerWidth >= 768) {
+          return Math.ceil(horizontalSlides.length / 3);
+        } else {
+          return horizontalSlides.length;
+        }
+      }
+
+      // Create indicators
+      function createIndicators() {
+        horizontalIndicatorsContainer.innerHTML = '';
+        const indicatorCount = getIndicatorCount();
+        
+        for (let i = 0; i < indicatorCount; i++) {
+          const indicator = document.createElement('div');
+          indicator.className = `horizontal-indicator ${i === 0 ? 'active' : ''}`;
+          indicator.addEventListener('click', () => {
+            clearTimeout(autoScrollTimer);
+            goToHorizontalSlide(i);
+            startAutoScroll();
+          });
+          horizontalIndicatorsContainer.appendChild(indicator);
+        }
+      }
+
+      createIndicators();
+
+      function getHorizontalIndicators() {
+        return horizontalIndicatorsContainer.querySelectorAll('.horizontal-indicator');
+      }
+
+      function updateHorizontalIndicators() {
+        const indicators = getHorizontalIndicators();
+        indicators.forEach((indicator, index) => {
+          indicator.classList.toggle('active', index === currentHorizontalIndex);
+        });
+      }
+
+      function goToHorizontalSlide(index) {
+        currentHorizontalIndex = index;
+        
+        let scrollPosition = 0;
+        const slideWidth = horizontalSlides[0].offsetWidth;
+        
+        if (window.innerWidth >= 768) {
+          const itemsPerView = 3;
+          scrollPosition = index * (slideWidth * itemsPerView + 14 * 2);
+        } else {
+          scrollPosition = index * slideWidth;
+        }
+        
+        horizontalSlider.scrollTo({
+          left: scrollPosition,
+          behavior: 'smooth'
+        });
+        updateHorizontalIndicators();
+      }
+
+      function startAutoScroll() {
+        autoScrollTimer = setInterval(() => {
+          const indicatorCount = getIndicatorCount();
+          currentHorizontalIndex = (currentHorizontalIndex + 1) % indicatorCount;
+          goToHorizontalSlide(currentHorizontalIndex);
+        }, 5000);
+      }
+
+      startAutoScroll();
+
+      // Pause auto-scroll on manual interaction
+      horizontalSlider.addEventListener('mousedown', () => {
+        clearTimeout(autoScrollTimer);
+      });
+
+      horizontalSlider.addEventListener('touchstart', () => {
+        clearTimeout(autoScrollTimer);
+      });
+
+      horizontalSlider.addEventListener('mouseleave', startAutoScroll);
+      horizontalSlider.addEventListener('touchend', () => {
+        setTimeout(startAutoScroll, 500);
+      });
+
+      // Update indicator saat manual scroll
+      let horizontalScrollTimeout;
+      horizontalSlider.addEventListener('scroll', () => {
+        clearTimeout(horizontalScrollTimeout);
+        horizontalScrollTimeout = setTimeout(() => {
+          const scrollLeft = horizontalSlider.scrollLeft;
+          const slideWidth = horizontalSlides[0].offsetWidth;
+          
+          if (window.innerWidth >= 768) {
+            const itemsPerView = 3;
+            const slideSetWidth = slideWidth * itemsPerView + 14 * 2;
+            currentHorizontalIndex = Math.round(scrollLeft / slideSetWidth);
+          } else {
+            currentHorizontalIndex = Math.round(scrollLeft / slideWidth);
+          }
+          
+          const indicatorCount = getIndicatorCount();
+          currentHorizontalIndex = Math.min(currentHorizontalIndex, indicatorCount - 1);
+          updateHorizontalIndicators();
+        }, 150);
+      });
+
+      // Handle window resize
+      window.addEventListener('resize', () => {
+        currentHorizontalIndex = 0;
+        createIndicators();
+        updateHorizontalIndicators();
+        goToHorizontalSlide(0);
+      });
+    }
+
+    // Initialize all five sliders
+    initSlider('horizontalSlider', 'horizontalIndicators');
+    initSlider('horizontalSlider2', 'horizontalIndicators2');
+    initSlider('horizontalSlider3', 'horizontalIndicators3');
+    initSlider('horizontalSlider4', 'horizontalIndicators4');
+    initSlider('horizontalSlider5', 'horizontalIndicators5');
+  </script>
+
+</body>
+</html>
